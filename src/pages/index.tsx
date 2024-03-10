@@ -28,6 +28,20 @@ export default function Home() {
           <div className="relative mt-5 mb-48 text-3xl text-zinc-950 max-md:mr-2.5 max-md:mb-10">
             Everything About Cricket
           </div>
+
+          <a
+            href="https://wa.me/6299480841"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative bg-green-500 text-white px-4 rounded-md no-underline font-bold flex flex-row justify-center py-3"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+              alt="WhatsApp Icon"
+              className="mr-2 w-[20px] h-[20px] my-auto"
+            />
+            <span className="my-auto">Chat on WhatsApp</span>
+          </a>
         </div>
         <div className="flex flex-col items-center px-5 py-20 w-full text-2xl bg-yellow-200 max-md:px-5 max-md:max-w-full">
           <img
