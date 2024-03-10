@@ -8,28 +8,15 @@ export default function Home() {
   return (
     <React.Fragment>
       <div className="block xl:hidden">
-        <div className="flex flex-col pb-20 mx-auto w-full bg-white max-w-[480px]">
-          <div className="flex overflow-hidden relative flex-col px-12 pt-10 pb-20 w-full whitespace-nowrap min-h-[801px] max-md:px-5 max-md:max-w-full">
-            <img
-              loading="lazy"
-              srcSet="/bg-hero-mobile.svg"
-              className="object-cover absolute inset-0 size-full"
-            />
-            <div className="relative shrink-0 self-end bg-white h-[5px] w-[52px]" />
-            <div className="relative shrink-0 self-end mt-4 bg-white h-[5px] w-[52px]" />
-            <div className="relative shrink-0 self-end mt-4 bg-white h-[5px] w-[52px]" />
-            <img
-              loading="lazy"
-              srcSet="/logo.png"
-              className="relative mt-11 ml-8 max-w-full rounded-full aspect-[1.19] max-md:mt-10 max-md:ml-2.5"
-            />
-            <div className="relative mt-28 text-5xl font-bold text-[#EBCF74] max-md:mt-10 max-md:text-4xl">
-              Reddy Anna
+        <div className="flex flex-col mx-auto w-full bg-white max-w-[480px]">
+          <div className="bg-black flex relative flex-col px-12 pt-10 pb-20 w-full min-h-[801px] max-md:px-5 max-md:max-w-full justify-center items-center">
+            <img loading="lazy" srcSet="/logo.png" className="w-[250px]" />
+            <div className="mt-28 text-5xl font-bold text-[#EBCF74] self-stretch leading-12">
+              <p>Welcome to Reddy Anna Book</p>
             </div>
-            <div className="relative mt-5 mb-48 text-3xl text-zinc-950 max-md:mr-2.5 max-md:mb-10">
-              Everything About Cricket
+            <div className="relative mt-10 mb-8 text-3xl text-white">
+              India's No.1 sports ID provider since 2010
             </div>
-
             <a
               href="https://wa.me/6299480841"
               target="_blank"
@@ -44,56 +31,58 @@ export default function Home() {
               <span className="my-auto">Chat on WhatsApp</span>
             </a>
           </div>
-          <div className="flex flex-col items-center px-5 py-20 w-full text-2xl bg-black max-md:px-5 max-md:max-w-full">
-            {/* <img
-              loading="lazy"
-              srcSet="helment-mobile.svg"
-              className="max-w-full aspect-[1.05] w-[212px]"
-            /> */}
+          <div className="flex flex-col items-center px-5 py-20 w-full text-2xl bg-[#141518] max-md:px-5 max-md:max-w-full">
             <div className="mt-4 text-3xl text-center text-[#EBCF74]">
               Why Choose Reddy Anna for Unmatched Gaming Excitement?
             </div>
-            <div className="self-stretch mt-3.5 text-center text-yellow-950 text-opacity-90 max-md:max-w-full">
-              Over the years as{" "}
-              <span className="text-yellow-950">the World Cup has evolved</span>{" "}
-              to be a bigger and better platform for competing for the ultimate
-              glory in the world of cricket, records are being made and broken
-              at will and weird instances and events continue to dot the global
-              spectrum of international cricket. Here are some of the most
-              interesting facts about the ICC World Cup from its glorious years
-              in history
+            <div className="self-stretch mt-3.5 text-center text-white text-opacity-90 max-md:max-w-full">
+              Over the years as Do you want to open your cricket ID online but
+              can't find a trustworthy betting platform? Here's a Reddy Anna
+              Book for you. This is India's most famous and trusted cricket demo
+              ID platform. Reddy Anna Book is India's largest exchange platform,
+              offering fantastic online sports betting with a 24-hour withdrawal
+              service.
             </div>
-            <div className="justify-center px-10 py-3.5 mt-4 mb-5 whitespace-nowrap bg-neutral-900 bg-opacity-80 text-zinc-50 max-md:px-5">
+            <div className="mt-[60px] justify-start text-center px-10 py-3.5 text-2xl whitespace-nowrap bg-[#EBCF74] bg-opacity-80 text-black">
               Read More
             </div>
           </div>
-          <div className="flex overflow-hidden relative flex-col py-20 w-full min-h-[760px] max-md:max-w-full">
-            <img
-              loading="lazy"
-              srcSet="/bg-hero-mobile-2.svg"
-              className="object-cover absolute inset-0 size-full"
-            />
-            <div className="flex relative flex-col px-16 mt-28 w-full text-center max-md:px-5 max-md:mt-10 max-md:max-w-full">
-              <div className="self-start text-5xl font-bold text-[#EBCF74] max-md:text-4xl">
-                Other Articles{" "}
+          <div className="flex overflow-hidden relative flex-col px-16 py-20 w-full min-h-[760px] max-md:px-5 max-md:max-w-full bg-black">
+            <div className="flex relative flex-col mb-2.5 max-w-full max-md:mt-10">
+              <div className="text-5xl font-bold text-center text-[#EBCF74] max-md:max-w-full max-md:text-4xl">
+                Reddy Anna Customer Support
               </div>
-              <div className="self-center mt-5 text-3xl text-[#EBCF74] text-opacity-90">
-                Check out
+              <div className="w-full flex justify-center pt-4">
+                <div className="mt-5 text-xl text-center text-white text-opacity-90 max-md:ml-2.5">
+                  Get in touch with REDDY ANNA for any Queries, Emergencies,
+                  Feedback or Complaints. We are here to help you 24/7 with our
+                  online services.
+                </div>
               </div>
-            </div>
-            <div className="flex relative flex-col items-center mt-11 mb-2.5 ml-4 max-w-full text-3xl whitespace-nowrap w-[187px] max-md:mt-10 max-md:ml-2.5">
-              <img
-                loading="lazy"
-                srcSet="/1.svg"
-                className="self-start w-full aspect-[1.27]"
-              />
-              <div className="mt-2 text-white">Read</div>
-              <img
-                loading="lazy"
-                srcSet="/2.svg"
-                className="mt-6 w-full aspect-[1.35]"
-              />
-              <div className="mt-2 text-stone-50">Read</div>
+              <div className="relative text-white flex justify-center mt-5">
+                <p className="border-2 border-[#EBCF74] p-2 px-8 rounded-[20px]">
+                  Contact us @123456790
+                </p>
+              </div>
+              <div className="text-5xl font-bold text-center text-[#EBCF74] max-md:max-w-full max-md:text-4xl my-10">
+                <h1>Reddy Anna: Success Stories and Player Testimonials</h1>
+              </div>
+              <div className="flex justify-center items-center text-center">
+                <p className="text-white text-xl">
+                  In the realm of online gaming, Reddy Anna Book Official has
+                  emerged as a trusted platform, garnering positive reviews and
+                  tangible winning proof from its users. The platform's
+                  commitment to providing a secure and transparent gaming
+                  environment is reflected in the experiences shared by its
+                  player community. From diverse game offerings to responsible
+                  gaming features, Reddy Book has created a winning formula that
+                  resonates with players seeking a reputable online gaming
+                  destination. The tangible proof of winnings, combined with
+                  favorable reviews, solidifies Reddy Anna's position as a
+                  reliable and rewarding platform in the competitive landscape
+                  of online gaming.
+                </p>
+              </div>
             </div>
           </div>
           <div className="flex overflow-hidden relative z-10 flex-col py-20 pr-16 pl-5 -mt-1 w-full text-2xl min-h-[850px] text-neutral-600 text-opacity-90 max-md:px-5 max-md:max-w-full">
@@ -121,29 +110,24 @@ export default function Home() {
               Submit
             </div>
           </div>
-          <div className="flex overflow-hidden relative flex-col pt-16 w-full text-white max-md:max-w-full">
-            <img
+          <div className="flex overflow-hidden relative flex-col pt-16 w-full text-white max-md:max-w-full bg-black">
+            {/* <img
               loading="lazy"
               srcSet="/footer-bg-mobile.svg"
               className="object-cover absolute inset-0 size-full"
-            />
-            <div className="flex relative flex-col self-start ml-10 text-4xl max-md:ml-2.5">
+            /> */}
+            <div className="flex relative flex-col self-start text-4xl px-8">
               <div className="text-6xl font-bold text-[#EBCF74] max-md:text-4xl">
                 Sitemap
               </div>
-              <div className="mt-2.5 text-3xl text-[#EBCF74] whitespace-nowrap">
-                All our pages
-              </div>
-              <div className="self-start mt-9 ml-4 max-md:ml-2.5">-Home</div>
-              <div className="self-start mt-5 ml-2.5 whitespace-nowrap">
-                -About Us
-              </div>
-              <div className="self-start mt-5 ml-4 max-md:ml-2.5">-Feature</div>
-              <div className="self-start mt-5 ml-3.5 max-md:ml-2.5">
-                -Purchase
-              </div>
+              <div className="mt-9 text-white">Follow us on social media</div>
+
+              <li className="mt-12">Home</li>
+              <li className="mt-2">About Us</li>
+              <li className="mt-2">Feature</li>
+              <li className="mt-2">Purchase</li>
+
               <div className="self-end mt-28 max-md:mt-10">
-                {" "}
                 <span className="text-2xl">(+91) 786 6487 5</span>
               </div>
               <div className="self-end mt-6">
@@ -151,8 +135,13 @@ export default function Home() {
                 <span className="text-2xl">mail@gmail.com</span>
               </div>
             </div>
-            <div className=" bottom-0 relative items-center px-16 pt-9 pb-20 mt-52 w-full text-xl text-center bg-black max-md:px-5 max-md:mt-10 max-md:max-w-full">
-              Copyright 2023 All Right Reserved Company Name
+            <div className="relative flex justify-center items-center px-16 py-12 mt-4 text-xl text-white bg-black">
+              <p>
+                {" "}
+                Copyright © 2024 Reddy Anna Book Official. All rights reserved.
+                Unauthorized reproduction or distribution of any content on this
+                website is prohibited.
+              </p>
             </div>
           </div>
         </div>
@@ -367,11 +356,7 @@ export default function Home() {
                   </div>
                   <div className="flex flex-col ml-5 w-[18%] max-md:ml-0 max-md:w-full">
                     <div className="flex flex-col px-5 text-4xl text-white max-md:mt-10">
-                      <img
-                        loading="lazy"
-                        srcSet="/logo.png"
-                        className=""
-                      />
+                      <img loading="lazy" srcSet="/logo.png" className="" />
                       <div className="mt-24 max-md:mt-10"> +91-1234567890</div>
                       <div className="mt-16 max-md:mt-10 text-[24px]">
                         {" "}
