@@ -48,25 +48,25 @@ export default function Home() {
                     href="/"
                     className="text-white hover:bg-white hover:text-black rounded-lg p-2"
                   >
-                   Sports Id
+                    Sports Id
                   </a>
                   <a
                     href="/"
                     className="text-white hover:bg-white hover:text-black rounded-lg p-2"
                   >
-                   Contact Us
+                    Contact Us
                   </a>
                   <a
                     href="/"
                     className="text-white hover:bg-white hover:text-black rounded-lg p-2"
                   >
-                   Blog
+                    Blog
                   </a>
                   <a
                     href="/"
                     className="text-white hover:bg-white hover:text-black rounded-lg p-2"
                   >
-                   Rule
+                    Rule
                   </a>
                 </div>
               </div>
@@ -136,7 +136,7 @@ export default function Home() {
                 href="/profile"
                 className="text-white block hover:bg-white hover:text-black rounded-lg p-2"
               >
-               About Us
+                About Us
               </a>
               <a
                 href="/contact-us"
@@ -283,7 +283,7 @@ export default function Home() {
               <h2 className="text-3xl md:text-5xl font-bold text-[#EBCF74]">
                 Contact us
               </h2>
-              <p className="text-lg md:text-xl text-neutral-600 text-opacity-90 mt-4">
+              <p className="text-lg md:text-xl text-black-600 text-opacity-90 mt-4">
                 Send us a message
               </p>
               <form className="mt-8 flex flex-col gap-4 max-w-md">
@@ -314,6 +314,23 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="flex flex-col items-center ml-5 w-full max-md:ml-0 max-md:w-full">
+          <div className="flex flex-col px-5 text-center text-4xl text-[#EBCF74] max-md:mt-2.5">
+            <div className="text-4xl md:text-6xl font-bold max-md:text-4xl">
+              Sitemap
+            </div>
+            <div className="mt-6 md:mt-9 text-white">
+              Follow us on social media
+            </div>
+            <ul className="mt-8 md:mt-12 text-center mb-4">
+              <li className="mt-4 md:mt-2 text-white">Home</li>
+              <li className="mt-4 md:mt-2 text-white">About Us</li>
+              <li className="mt-4 md:mt-2 text-white">Feature</li>
+              <li className="mt-4 md:mt-2 text-white">Purchase</li>
+            </ul>
+          </div>
+        </div>
+
         <div className="px-6 py-12 md:px-10 bg-gray-800 text-center">
           <p className="text-xl text-white">
             Copyright © 2024 Reddy Anna Book Official. All rights reserved.
