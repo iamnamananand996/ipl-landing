@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+@media (min-width: 768px) {
+  .flex.justify-between {
+    justify-content: center;
+  }
+}
