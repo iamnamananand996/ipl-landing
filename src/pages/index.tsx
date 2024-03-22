@@ -188,7 +188,7 @@ export default function Home() {
               href="https://wa.me/6299480841"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt2 bg-green-500 text-white px-4 py-3 rounded-md font-bold"
+              className="inline-block mt-6 bg-green-500 text-white px-4 py-3 rounded-md font-bold"
             >
               Chat on WhatsApp
             </a>
@@ -245,7 +245,7 @@ export default function Home() {
               online services.
             </p>
             <p className="text-lg mt-4 border-2 border-[#EBCF74] inline-block px-6 py-3 rounded-md">
-              Contact us @123456790
+              Contact us +91-8227058228
             </p>
           </div>
           <div className="text-center mt-10">
@@ -309,12 +309,12 @@ export default function Home() {
             </div>
             <div className="md:w-1/4 mt-10 md:mt-0 md:ml-10">
               <img loading="lazy" srcSet="/logo.png" alt="Logo" />
-              <p className="text-[24px] mt-4 text-white">+91-1234567890</p>
+              <p className="text-[24px] mt-4 text-white">+91-70211 92530</p>
               <p className="text-lg mt-4 text-white">play-cricket@gmail.com</p>
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center ml-5 w-full max-md:ml-0 max-md:w-full">
+        {/* <div className="flex flex-col items-center ml-5 w-full max-md:ml-0 max-md:w-full">
           <div className="flex flex-col px-5 text-center text-4xl text-[#EBCF74] max-md:mt-2.5">
             <div className="text-4xl md:text-6xl font-bold max-md:text-4xl">
               Sitemap
@@ -329,7 +329,7 @@ export default function Home() {
               <li className="mt-4 md:mt-2 text-white">Purchase</li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
         <div className="px-6 py-12 md:px-10 bg-gray-800 text-center">
           <p className="text-xl text-white">
